@@ -9,4 +9,13 @@
 
 @implementation BNToolHelper
 
++ (void)caclLotsUselessNums {
+    // 测试卡顿使用
+    int num = 0;
+    for (int i = 0 ; i < 1000; i ++) {
+        num ++;
+        NSLog(@"BNToolHelper num:%d",num);
+    }
+}
+
 @end

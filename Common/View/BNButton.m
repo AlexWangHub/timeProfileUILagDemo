@@ -17,10 +17,6 @@
                                             self.frame.size.height + self.touchInsets.top + self.touchInsets.bottom);
         return CGRectContainsPoint(responsibleRect, point);
     }
-    if (_autoExpandHitArea) {
-        self.expandHitWidth = MAX(NORMAL_HOTAREA_WIDTH - self.frame.size.width, _expandHitWidth);
-        self.expandHitHeight = MAX(NORMAL_HOTAREA_HEIGHT - self.frame.size.height, _expandHitHeight);
-    }
     CGRect bounds = CGRectInset(self.bounds, -0.5 * self.expandHitWidth, -0.5 * self.expandHitHeight);
     return CGRectContainsPoint(bounds, point);
 }

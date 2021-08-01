@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, BNCommonPanelViewLevel);
 @property (nonatomic, assign) BNCommonPanelViewLevel level;
-@property (nonatomic, strong) NSObject *info;
+@property (nonatomic, copy)   NSString *title;
 
 @end
 

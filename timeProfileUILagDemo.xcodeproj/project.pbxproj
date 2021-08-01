@@ -16,6 +16,17 @@
 		B836B8E326B5567E00D3F3F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B8E226B5567E00D3F3F1 /* main.m */; };
 		B836B8ED26B5567E00D3F3F1 /* timeProfileUILagDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B8EC26B5567E00D3F3F1 /* timeProfileUILagDemoTests.m */; };
 		B836B8F826B5567E00D3F3F1 /* timeProfileUILagDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B8F726B5567E00D3F3F1 /* timeProfileUILagDemoUITests.m */; };
+		B836B94E26B5572F00D3F3F1 /* BNCommonPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B94D26B5572F00D3F3F1 /* BNCommonPanelView.m */; };
+		B836B95126B5582000D3F3F1 /* BNCommonPanelViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B95026B5582000D3F3F1 /* BNCommonPanelViewInfo.m */; };
+		B836B95526B559D200D3F3F1 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B95426B559D200D3F3F1 /* UIView+Extend.m */; };
+		B836B95926B55A4B00D3F3F1 /* BNCommonBusinessView.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B95826B55A4B00D3F3F1 /* BNCommonBusinessView.m */; };
+		B836B95D26B55E0500D3F3F1 /* BNBuildHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B95C26B55E0500D3F3F1 /* BNBuildHelper.m */; };
+		B836B96426B55F5E00D3F3F1 /* BNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B96326B55F5E00D3F3F1 /* BNButton.m */; };
+		B836B96826B5974E00D3F3F1 /* BNDataDefine.h in Sources */ = {isa = PBXBuildFile; fileRef = B836B96726B5974E00D3F3F1 /* BNDataDefine.h */; };
+		B836B96B26B59DBB00D3F3F1 /* BNScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B96A26B59DBB00D3F3F1 /* BNScrollViewViewController.m */; };
+		B836B96E26B59DC900D3F3F1 /* BNTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B96D26B59DC900D3F3F1 /* BNTableViewViewController.m */; };
+		B836B97126B5A36C00D3F3F1 /* BNDemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B97026B5A36C00D3F3F1 /* BNDemoTableViewCell.m */; };
+		B836B97426B5A75500D3F3F1 /* BNToolHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B836B97326B5A75500D3F3F1 /* BNToolHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +65,27 @@
 		B836B8F326B5567E00D3F3F1 /* timeProfileUILagDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeProfileUILagDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B836B8F726B5567E00D3F3F1 /* timeProfileUILagDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timeProfileUILagDemoUITests.m; sourceTree = "<group>"; };
 		B836B8F926B5567E00D3F3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B836B94C26B5572F00D3F3F1 /* BNCommonPanelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCommonPanelView.h; sourceTree = "<group>"; };
+		B836B94D26B5572F00D3F3F1 /* BNCommonPanelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCommonPanelView.m; sourceTree = "<group>"; };
+		B836B94F26B5582000D3F3F1 /* BNCommonPanelViewInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCommonPanelViewInfo.h; sourceTree = "<group>"; };
+		B836B95026B5582000D3F3F1 /* BNCommonPanelViewInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCommonPanelViewInfo.m; sourceTree = "<group>"; };
+		B836B95326B559D200D3F3F1 /* UIView+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		B836B95426B559D200D3F3F1 /* UIView+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		B836B95726B55A4B00D3F3F1 /* BNCommonBusinessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCommonBusinessView.h; sourceTree = "<group>"; };
+		B836B95826B55A4B00D3F3F1 /* BNCommonBusinessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCommonBusinessView.m; sourceTree = "<group>"; };
+		B836B95B26B55E0500D3F3F1 /* BNBuildHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNBuildHelper.h; sourceTree = "<group>"; };
+		B836B95C26B55E0500D3F3F1 /* BNBuildHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNBuildHelper.m; sourceTree = "<group>"; };
+		B836B96226B55F5E00D3F3F1 /* BNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNButton.h; sourceTree = "<group>"; };
+		B836B96326B55F5E00D3F3F1 /* BNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNButton.m; sourceTree = "<group>"; };
+		B836B96726B5974E00D3F3F1 /* BNDataDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNDataDefine.h; sourceTree = "<group>"; };
+		B836B96926B59DBB00D3F3F1 /* BNScrollViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNScrollViewViewController.h; sourceTree = "<group>"; };
+		B836B96A26B59DBB00D3F3F1 /* BNScrollViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNScrollViewViewController.m; sourceTree = "<group>"; };
+		B836B96C26B59DC900D3F3F1 /* BNTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNTableViewViewController.h; sourceTree = "<group>"; };
+		B836B96D26B59DC900D3F3F1 /* BNTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNTableViewViewController.m; sourceTree = "<group>"; };
+		B836B96F26B5A36C00D3F3F1 /* BNDemoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNDemoTableViewCell.h; sourceTree = "<group>"; };
+		B836B97026B5A36C00D3F3F1 /* BNDemoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNDemoTableViewCell.m; sourceTree = "<group>"; };
+		B836B97226B5A75500D3F3F1 /* BNToolHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNToolHelper.h; sourceTree = "<group>"; };
+		B836B97326B5A75500D3F3F1 /* BNToolHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNToolHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +116,7 @@
 		B836B8C426B5567D00D3F3F1 = {
 			isa = PBXGroup;
 			children = (
+				B836B90526B556A900D3F3F1 /* Common */,
 				B836B8CF26B5567D00D3F3F1 /* timeProfileUILagDemo */,
 				B836B8EB26B5567E00D3F3F1 /* timeProfileUILagDemoTests */,
 				B836B8F626B5567E00D3F3F1 /* timeProfileUILagDemoUITests */,
@@ -115,6 +148,12 @@
 				B836B8DE26B5567E00D3F3F1 /* LaunchScreen.storyboard */,
 				B836B8E126B5567E00D3F3F1 /* Info.plist */,
 				B836B8E226B5567E00D3F3F1 /* main.m */,
+				B836B96926B59DBB00D3F3F1 /* BNScrollViewViewController.h */,
+				B836B96A26B59DBB00D3F3F1 /* BNScrollViewViewController.m */,
+				B836B96C26B59DC900D3F3F1 /* BNTableViewViewController.h */,
+				B836B96D26B59DC900D3F3F1 /* BNTableViewViewController.m */,
+				B836B96F26B5A36C00D3F3F1 /* BNDemoTableViewCell.h */,
+				B836B97026B5A36C00D3F3F1 /* BNDemoTableViewCell.m */,
 			);
 			path = timeProfileUILagDemo;
 			sourceTree = "<group>";
@@ -135,6 +174,68 @@
 				B836B8F926B5567E00D3F3F1 /* Info.plist */,
 			);
 			path = timeProfileUILagDemoUITests;
+			sourceTree = "<group>";
+		};
+		B836B90526B556A900D3F3F1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B836B96526B5971F00D3F3F1 /* Define */,
+				B836B95E26B55E6900D3F3F1 /* View */,
+				B836B95A26B55DCF00D3F3F1 /* Helper */,
+				B836B95626B559DA00D3F3F1 /* Category */,
+				B836B95226B559AE00D3F3F1 /* PanelView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B836B95226B559AE00D3F3F1 /* PanelView */ = {
+			isa = PBXGroup;
+			children = (
+				B836B94C26B5572F00D3F3F1 /* BNCommonPanelView.h */,
+				B836B94D26B5572F00D3F3F1 /* BNCommonPanelView.m */,
+				B836B94F26B5582000D3F3F1 /* BNCommonPanelViewInfo.h */,
+				B836B95026B5582000D3F3F1 /* BNCommonPanelViewInfo.m */,
+				B836B95726B55A4B00D3F3F1 /* BNCommonBusinessView.h */,
+				B836B95826B55A4B00D3F3F1 /* BNCommonBusinessView.m */,
+			);
+			path = PanelView;
+			sourceTree = "<group>";
+		};
+		B836B95626B559DA00D3F3F1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B836B95326B559D200D3F3F1 /* UIView+Extend.h */,
+				B836B95426B559D200D3F3F1 /* UIView+Extend.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B836B95A26B55DCF00D3F3F1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B836B95B26B55E0500D3F3F1 /* BNBuildHelper.h */,
+				B836B95C26B55E0500D3F3F1 /* BNBuildHelper.m */,
+				B836B97226B5A75500D3F3F1 /* BNToolHelper.h */,
+				B836B97326B5A75500D3F3F1 /* BNToolHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B836B95E26B55E6900D3F3F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B836B96226B55F5E00D3F3F1 /* BNButton.h */,
+				B836B96326B55F5E00D3F3F1 /* BNButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B836B96526B5971F00D3F3F1 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				B836B96726B5974E00D3F3F1 /* BNDataDefine.h */,
+			);
+			path = Define;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +367,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B836B95126B5582000D3F3F1 /* BNCommonPanelViewInfo.m in Sources */,
+				B836B96426B55F5E00D3F3F1 /* BNButton.m in Sources */,
+				B836B95926B55A4B00D3F3F1 /* BNCommonBusinessView.m in Sources */,
+				B836B96E26B59DC900D3F3F1 /* BNTableViewViewController.m in Sources */,
+				B836B95D26B55E0500D3F3F1 /* BNBuildHelper.m in Sources */,
+				B836B96B26B59DBB00D3F3F1 /* BNScrollViewViewController.m in Sources */,
+				B836B97126B5A36C00D3F3F1 /* BNDemoTableViewCell.m in Sources */,
+				B836B96826B5974E00D3F3F1 /* BNDataDefine.h in Sources */,
 				B836B8D826B5567D00D3F3F1 /* ViewController.m in Sources */,
 				B836B8D226B5567D00D3F3F1 /* AppDelegate.m in Sources */,
+				B836B95526B559D200D3F3F1 /* UIView+Extend.m in Sources */,
 				B836B8E326B5567E00D3F3F1 /* main.m in Sources */,
+				B836B97426B5A75500D3F3F1 /* BNToolHelper.m in Sources */,
 				B836B8D526B5567D00D3F3F1 /* SceneDelegate.m in Sources */,
+				B836B94E26B5572F00D3F3F1 /* BNCommonPanelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -33,13 +33,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) NSInteger expandHitHeight;
 
-/**
- 指定点击区域的大小为规范值，优先级 touchInsets > autoExpandHitArea、 expandHitWidth、expandHitHeight
- 若 autoExpandHitArea = NO，点击区域根据expandHitWidth、expandHitHeight扩大
- 若 autoExpandHitArea = YES，点击区域不满足规范值的边扩充至规范值
- */
-@property (nonatomic, assign) BOOL autoExpandHitArea;
-
 /// 使用侧自由传入的上下文自定义对象
 @property (nonatomic, strong) id customObject;
 
